@@ -14,7 +14,9 @@ Aviation operations professional building practical automation tools for dispatc
 
 ### Parking Location Tool
 
-A dispatcher-focused workflow tool designed to help track aircraft parking locations from fuel request information.
+A practical aviation dispatch workflow concept for tracking aircraft parking locations from fuel request information.
+
+[View project](https://github.com/rankabaam/parking-location-tool)
 
 **What it demonstrates:**
 
