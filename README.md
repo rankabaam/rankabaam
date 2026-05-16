@@ -53,22 +53,17 @@ A live Korean-English sermon translation workflow concept for church services.
 
 **What it demonstrates:**
 
-- Real-time speech-to-text and translation workflow design
+- Live speech-to-text and translation workflow design
 - Admin and viewer interface planning
 - Session memory for late-joining viewers
 - Translation quality improvement using logs, glossary terms, and correction files
 - Church website integration concept
 - Practical AI-assisted system design for a real worship environment
 
-**Key components:**
+**Why it matters:**
 
-- Sermon audio processing concept
-- Speech-to-text cleanup and correction flow
-- Korean-English translation pipeline
-- Viewer display interface
-- Admin monitoring interface
-- Session memory and historical segment retention
-- Website iframe/embed integration
+This project was designed around a real multilingual church environment where attendees may need live translation support during sermons.  
+The focus is not only translation output, but also operational reliability, viewer experience, session continuity, and iterative improvement from live-service feedback.
 
 **Why it matters:**
 
