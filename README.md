@@ -65,11 +65,6 @@ A live Korean-English sermon translation workflow concept for church services.
 This project was designed around a real multilingual church environment where attendees may need live translation support during sermons.  
 The focus is not only translation output, but also operational reliability, viewer experience, session continuity, and iterative improvement from live-service feedback.
 
-**Why it matters:**
-
-This project was designed around a real multilingual church environment where attendees may need live translation support during sermons.  
-The focus is not only translation output, but also operational reliability, viewer experience, session continuity, and iterative improvement from live-service feedback.
-
 ## Current Direction
 
 I am focused on building practical tools that connect aviation operations, systems safety, media workflows, and AI-assisted automation.
