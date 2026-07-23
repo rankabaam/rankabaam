@@ -1,92 +1,89 @@
 # B. Kim
 
-Aviation operations professional building practical automation tools for dispatch workflows, media production, public-facing web systems, systems safety, and AI-assisted operations.
+Aviation operations and systems-safety professional building practical automation tools for dispatch workflows, live translation, media production, and public-facing web systems.
 
-## Focus Areas
+## Professional Focus
 
-- Aviation dispatch operations
-- Systems safety and risk analysis
-- Workflow automation
-- Public-facing website rebuilds and content workflows
-- Python, VBA, Excel, HTML dashboards, WordPress, and FFmpeg
-- AI-assisted tool development
-- Practical tools for recurring operational tasks
+- Aviation operations and dispatch support
+- Systems safety, risk analysis, and operational reliability
+- Workflow automation and decision-support tools
+- Python, VBA, Excel, HTML, FastAPI, WordPress, and FFmpeg
+- AI-assisted development for recurring operational problems
+- Documentation, regression control, and maintainable handoff
 
 ## Featured Projects
 
 ### Parking Location Tool
 
-A practical aviation dispatch workflow concept for tracking aircraft parking locations from fuel request information.
+A sanitized aviation decision-support project that converts semi-structured service requests and recent movement signals into a searchable aircraft-location dashboard.
+
+**Highlights**
+
+- Message parsing and data normalization
+- Conservative status logic for incomplete or stale information
+- Generalized Parking, Landed, Flying, and Uncertain states
+- Dashboard and visual-map concepts
+- Operational fallback and regression-control design
 
 [View project](https://github.com/rankabaam/parking-location-tool)
-
-**What it demonstrates:**
-
-- Real-world aviation operations problem solving
-- Outlook and Excel workflow automation concepts
-- HTML dashboard design for shared operational visibility
-- Data structuring from semi-structured request information
-- Sanitized portfolio documentation using fictional sample data
-
----
-
-### Legacy Website Rebuild
-
-A WordPress-based rebuild project for a public-facing organization website that replaced a previous XE-based legacy site after long-term CMS support limitations and hosting/platform changes made the old structure difficult to maintain.
-
-[View project](https://github.com/rankabaam/legacy-website-rebuild)
-
-**What it demonstrates:**
-
-- Legacy website recovery and rebuild planning
-- Migration from an outdated CMS workflow to a WordPress-based structure
-- Menu, page, gallery, and sermon media organization
-- Public-facing website maintenance for a real organization
-- Website structure planning connected to recurring sermon media production workflows
-- Integration planning for media resources and live translation access
-- Practical troubleshooting under real operational constraints
-
----
-
-### Sermon Video Automation
-
-A Python and FFmpeg workflow concept for preparing sermon video, thumbnail, and audio outputs for weekly media production.
-
-[View project](https://github.com/rankabaam/sermon-video-automation)
-
-**What it demonstrates:**
-
-- Media workflow automation
-- Python scripting for recurring production tasks
-- FFmpeg-based video and audio processing concepts
-- File organization and naming standardization
-- Upload-ready media output planning for recurring website updates
-- Dry-run sample automation structure using sanitized example files
 
 ---
 
 ### Church Live Translation System
 
-A live Korean-English sermon translation workflow concept for church services.
+A real-time Korean-English translation system designed for live worship services with local speech recognition, machine translation, operator monitoring, and viewer session continuity.
+
+**Highlights**
+
+- Streaming speech-to-text and translation architecture
+- Voice activity detection and sentence cleanup
+- Glossary-assisted terminology control
+- FastAPI-based admin and viewer design
+- Live-service feedback and regression review
 
 [View project](https://github.com/rankabaam/church-live-translation-system)
 
-**What it demonstrates:**
+---
 
-- Live speech-to-text and translation workflow design
-- Admin and viewer interface planning
-- Session memory for late-joining viewers
-- Translation quality improvement using logs, glossary terms, and correction files
-- Website integration concept through a dedicated translation access point
-- Practical AI-assisted system design for a real worship environment
+### Sermon Video Automation
 
-**Why it matters:**
+A Python and FFmpeg workflow for organizing recurring sermon-media production into a repeatable input, processing, audio-export, and upload-ready pipeline.
 
-This project was designed around a real multilingual church environment where attendees may need live translation support during sermons.  
-The focus is not only translation output, but also operational reliability, viewer experience, session continuity, and iterative improvement from live-service feedback.
+**Highlights**
 
-## Current Direction
+- Latest-recording discovery
+- Standardized file naming and folder generation
+- Configurable FFmpeg workflow concepts
+- Dry-run validation and privacy-safe examples
+- Repeatable weekly media operations
 
-I am focused on building practical tools that connect aviation operations, systems safety, media workflows, public-facing web systems, and AI-assisted automation.
+[View project](https://github.com/rankabaam/sermon-video-automation)
 
-My projects are centered on a simple principle: identify recurring operational friction, structure the workflow, and build tools that make the work faster, clearer, and more consistent.
+---
+
+### Legacy Website Rebuild
+
+A WordPress rebuild case study covering legacy-site assessment, information architecture, media organization, operational integration, and long-term maintainability.
+
+**Highlights**
+
+- Migration from an aging CMS
+- Navigation and content restructuring
+- Gallery and sermon archive organization
+- Integration with media and translation workflows
+- Public-safe documentation of real operational constraints
+
+[View project](https://github.com/rankabaam/legacy-website-rebuild)
+
+## Working Approach
+
+My projects follow a consistent pattern:
+
+1. Identify recurring operational friction.
+2. Map the real workflow and failure modes.
+3. Build the smallest useful tool.
+4. Add conservative safeguards and clear status information.
+5. Document the system so it can be maintained and handed off.
+6. Improve it through operational feedback and regression testing.
+
+All public repositories are intentionally sanitized and exclude employer-confidential information, private organizational data, credentials, and production records.
