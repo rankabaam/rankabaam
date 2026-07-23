@@ -15,15 +15,15 @@ Aviation operations and systems-safety professional building practical automatio
 
 ### Parking Location Tool
 
-A sanitized aviation decision-support project that converts semi-structured service requests and recent movement signals into a searchable aircraft-location dashboard.
+A sanitized aviation decision-support project combining synthetic service-location records with simulated movement signals.
 
-**Highlights**
+**Current public demo**
 
-- Message parsing and data normalization
-- Conservative status logic for incomplete or stale information
-- Generalized Parking, Landed, Flying, and Uncertain states
-- Dashboard and visual-map concepts
-- Operational fallback and regression-control design
+- Runnable Python status engine
+- Parking, Landed, Flying, and Uncertain precedence
+- Searchable dark/light HTML table and ramp view
+- Map-visibility and location-confidence rules
+- Unit tests for stale-data and movement-state behavior
 
 [View project](https://github.com/rankabaam/parking-location-tool)
 
@@ -31,15 +31,16 @@ A sanitized aviation decision-support project that converts semi-structured serv
 
 ### Church Live Translation System
 
-A real-time Korean-English translation system designed for live worship services with local speech recognition, machine translation, operator monitoring, and viewer session continuity.
+A runnable FastAPI and WebSocket demonstration of a model-agnostic Korean–English live-translation workflow.
 
-**Highlights**
+**Current public demo**
 
-- Streaming speech-to-text and translation architecture
-- Voice activity detection and sentence cleanup
-- Glossary-assisted terminology control
-- FastAPI-based admin and viewer design
-- Live-service feedback and regression review
+- REST processing and session endpoints
+- WebSocket snapshots and live viewer updates
+- Partial-fragment suppression
+- Glossary-assisted terminology visibility
+- Bounded session memory for reconnecting viewers
+- Unit-tested pipeline logic
 
 [View project](https://github.com/rankabaam/church-live-translation-system)
 
@@ -47,15 +48,16 @@ A real-time Korean-English translation system designed for live worship services
 
 ### Sermon Video Automation
 
-A Python and FFmpeg workflow for organizing recurring sermon-media production into a repeatable input, processing, audio-export, and upload-ready pipeline.
+A config-driven Python and FFmpeg workflow for recurring sermon-media preparation.
 
-**Highlights**
+**Current public demo**
 
+- Safe dry-run mode
+- Optional authorized execution mode
+- YAML configuration
 - Latest-recording discovery
-- Standardized file naming and folder generation
-- Configurable FFmpeg workflow concepts
-- Dry-run validation and privacy-safe examples
-- Repeatable weekly media operations
+- Generated intro, normalization, concatenation, WAV export, and upload-ready packaging
+- Tests for naming, discovery, and command construction
 
 [View project](https://github.com/rankabaam/sermon-video-automation)
 
@@ -63,27 +65,26 @@ A Python and FFmpeg workflow for organizing recurring sermon-media production in
 
 ### Legacy Website Rebuild
 
-A WordPress rebuild case study covering legacy-site assessment, information architecture, media organization, operational integration, and long-term maintainability.
+A WordPress rebuild case study covering legacy-site assessment, information architecture, event and media organization, workflow integration, and long-term maintainability.
 
-**Highlights**
+**Current documentation**
 
-- Migration from an aging CMS
-- Navigation and content restructuring
-- Gallery and sermon archive organization
-- Integration with media and translation workflows
-- Public-safe documentation of real operational constraints
+- Directly linked case-study sections
+- Operational maintenance model
+- Event-calendar refinement
+- Sermon-media workflow integration
+- Privacy-safe lessons learned
 
 [View project](https://github.com/rankabaam/legacy-website-rebuild)
 
 ## Working Approach
 
-My projects follow a consistent pattern:
-
 1. Identify recurring operational friction.
 2. Map the real workflow and failure modes.
 3. Build the smallest useful tool.
 4. Add conservative safeguards and clear status information.
-5. Document the system so it can be maintained and handed off.
-6. Improve it through operational feedback and regression testing.
+5. Separate public demonstrations from production data and infrastructure.
+6. Test deterministic behavior and document the handoff.
+7. Improve the system through operational feedback and regression review.
 
-All public repositories are intentionally sanitized and exclude employer-confidential information, private organizational data, credentials, and production records.
+All public repositories are intentionally sanitized and exclude employer-confidential information, private organizational data, credentials, production records, and copyrighted operational media.
