@@ -77,6 +77,14 @@ A WordPress rebuild case study covering legacy-site assessment, information arch
 
 [View project](https://github.com/rankabaam/legacy-website-rebuild)
 
+## Operations Workflow Projects
+
+Sanitized case studies of three practical workflow tools and one analytical report: a schedule viewer, an asset inventory and reconciliation workflow, a photo-intake prototype, and inspection trend analysis. These entries describe the work at a general level; original employer-owned code, internal records, and operational data are not published.
+
+[Explore the case studies](projects/operations-tools/README.md)
+
+---
+
 ## Working Approach
 
 1. Identify recurring operational friction.
