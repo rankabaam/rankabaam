@@ -15,14 +15,14 @@ Aviation operations and systems-safety professional building practical automatio
 
 ### Parking Location Tool
 
-A sanitized aviation decision-support project combining synthetic service-location records with simulated movement signals.
+A sanitized aviation decision-support portfolio demo. The latest extension uses synthetic Fuel Request-only records, while an older movement-state experiment is preserved for comparison.
 
 **Current public demo**
 
 - Runnable Python status engine
-- Parking, Landed, Flying, and Uncertain precedence
+- Latest Fuel Request-only mode with 12/24/48-hour freshness bands
 - Searchable dark/light HTML table and ramp view
-- Map-visibility and location-confidence rules
+- Age-based visual location inclusion with stale records flagged Uncertain
 - Unit tests for stale-data and movement-state behavior
 
 [View project](https://github.com/rankabaam/parking-location-tool)
@@ -31,13 +31,13 @@ A sanitized aviation decision-support project combining synthetic service-locati
 
 ### Church Live Translation System
 
-A runnable FastAPI and WebSocket demonstration of a model-agnostic Korean–English live-translation workflow.
+A runnable FastAPI and WebSocket demonstration of a local-first caption workflow, now with an additional offline English/Spanish phrasebook preview.
 
 **Current public demo**
 
-- REST processing and session endpoints
+- REST processing, session endpoints, and a language-selection demonstration
 - WebSocket snapshots and live viewer updates
-- Partial-fragment suppression
+- Partial-fragment and duplicate final-segment suppression (synthetic data)
 - Glossary-assisted terminology visibility
 - Bounded session memory for reconnecting viewers
 - Unit-tested pipeline logic
@@ -48,16 +48,16 @@ A runnable FastAPI and WebSocket demonstration of a model-agnostic Korean–Engl
 
 ### Sermon Video Automation
 
-A config-driven Python and FFmpeg workflow for recurring sermon-media preparation.
+A config-driven Python and FFmpeg portfolio workflow, with an independent v1.4-style dashboard preview and simulated safe publication-state recovery.
 
 **Current public demo**
 
-- Safe dry-run mode
+- Safe dry-run mode and a separate interactive dashboard UI mockup
 - Optional authorized execution mode
 - YAML configuration
 - Latest-recording discovery
 - Generated intro, normalization, concatenation, WAV export, and upload-ready packaging
-- Tests for naming, discovery, and command construction
+- Tests for naming, discovery, command construction, and synthetic in-place embed recovery
 
 [View project](https://github.com/rankabaam/sermon-video-automation)
 
@@ -65,14 +65,14 @@ A config-driven Python and FFmpeg workflow for recurring sermon-media preparatio
 
 ### Legacy Website Rebuild
 
-A WordPress rebuild case study covering legacy-site assessment, information architecture, event and media organization, workflow integration, and long-term maintainability.
+A WordPress rebuild case study with additional responsive community-language-program and fictional recent-sermon layout samples.
 
 **Current documentation**
 
 - Directly linked case-study sections
 - Operational maintenance model
-- Event-calendar refinement
-- Sermon-media workflow integration
+- Event-calendar refinement and mobile-friendly language-program landing-page sample
+- Sermon-media workflow integration and static latest-message card preview
 - Privacy-safe lessons learned
 
 [View project](https://github.com/rankabaam/legacy-website-rebuild)
@@ -101,5 +101,7 @@ Every demo uses fictional scenarios and contains no actual employer files, custo
 5. Separate public demonstrations from production data and infrastructure.
 6. Test deterministic behavior and document the handoff.
 7. Improve the system through operational feedback and regression review.
+
+Independent portfolio previews describe public-safe features, not the latest private production code. Recent GitHub checks validate demo tests only, not live integrations.
 
 All public repositories are intentionally sanitized and exclude employer-confidential information, private organizational data, credentials, production records, and copyrighted operational media.
