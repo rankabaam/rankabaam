@@ -77,11 +77,18 @@ A WordPress rebuild case study covering legacy-site assessment, information arch
 
 [View project](https://github.com/rankabaam/legacy-website-rebuild)
 
-## Operations Workflow Projects
+## Independent Operations Demos
 
-Sanitized case studies of three practical workflow tools and one analytical report: a schedule viewer, an asset inventory and reconciliation workflow, a photo-intake prototype, and inspection trend analysis. These entries describe the work at a general level; original employer-owned code, internal records, and operational data are not published.
+Four additional **independently implemented, runnable** Python portfolio demonstrations. Each has a README, source code, synthetic sample inputs, unit tests, and an offline HTML preview. These are general-purpose reconstructions of workflow concepts, **not copies of workplace implementations**.
 
-[Explore the case studies](projects/operations-tools/README.md)
+| Repository | Demonstration | Source & sample |
+| --- | --- | --- |
+| [Schedule Board](https://github.com/rankabaam/Schedule-Board) | Date-grouped tasks, status tags, and an offline dashboard | [Code](https://github.com/rankabaam/Schedule-Board/tree/main/src) · [Preview](https://github.com/rankabaam/Schedule-Board/blob/main/demo/preview.html) |
+| [Asset Inventory](https://github.com/rankabaam/Asset-Inventory) | Asset register reconciliation and review-oriented statuses | [Code](https://github.com/rankabaam/Asset-Inventory/tree/main/src) · [Preview](https://github.com/rankabaam/Asset-Inventory/blob/main/demo/preview.html) |
+| [Photo Intake](https://github.com/rankabaam/Photo-Intake) | Safe local media grouping and file-copy workflow | [Code](https://github.com/rankabaam/Photo-Intake/tree/main/src) · [Preview](https://github.com/rankabaam/Photo-Intake/blob/main/demo/index.html) |
+| [Inspection Analytics](https://github.com/rankabaam/Inspection-Analytics) | Quality metrics, denominators, follow-up analysis, and reporting | [Code](https://github.com/rankabaam/Inspection-Analytics/tree/main/src) · [Preview](https://github.com/rankabaam/Inspection-Analytics/blob/main/demo/preview.html) |
+
+Every demo uses fictional scenarios and contains no actual employer files, customer information, location logs, site identifiers, source spreadsheets, or internal inspection data. The Photo Intake demonstration is a portfolio prototype, not a production deployment.
 
 ---
 
