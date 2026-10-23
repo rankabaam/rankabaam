@@ -13,6 +13,19 @@ Aviation operations and systems-safety professional building practical automatio
 
 ## Featured Projects
 
+### Fieldframe — Reliable Photo Workflow
+
+An interactive field-photo case study with eight checkpoints, IndexedDB persistence, deterministic network failures, stable retry IDs and archive-gated completion.
+
+- Browser-only HTML/CSS/JavaScript demo with synthetic evidence
+- Offline/retry/session-revocation scenarios and an exportable event log
+- 12 reproducible public tests, architecture notes and retirement design
+- Private-source verification is reported separately: 65 simulated-service checks passed on 2026-10-22
+
+[View project and run instructions](https://github.com/rankabaam/Photo-Intake) · [Case study](https://github.com/rankabaam/Photo-Intake/blob/main/docs/CASE_STUDY.md)
+
+---
+
 ### Parking Location Tool
 
 A sanitized aviation decision-support portfolio demo. The latest extension uses synthetic Fuel Request-only records, while an older movement-state experiment is preserved for comparison.
@@ -79,13 +92,13 @@ A WordPress rebuild case study with additional responsive community-language-pro
 
 ## Independent Operations Demos
 
-Four additional **independently implemented, runnable** Python portfolio demonstrations. Each has a README, source code, synthetic sample inputs, unit tests, and an offline HTML preview. These are general-purpose reconstructions of workflow concepts, **not copies of workplace implementations**.
+Four **independently implemented, runnable** operations demonstrations. Photo Intake now includes the interactive JavaScript case study featured above; the others retain Python workflows. Each has a README, source code, synthetic sample inputs, unit tests, and an offline HTML preview. These are general-purpose reconstructions of workflow concepts, **not copies of workplace implementations**.
 
 | Repository | Demonstration | Source & sample |
 | --- | --- | --- |
 | [Schedule Board](https://github.com/rankabaam/Schedule-Board) | Date-grouped tasks, status tags, and an offline dashboard | [Code](https://github.com/rankabaam/Schedule-Board/tree/main/src) · [Preview](https://github.com/rankabaam/Schedule-Board/blob/main/demo/preview.html) |
 | [Asset Inventory](https://github.com/rankabaam/Asset-Inventory) | Asset register reconciliation and review-oriented statuses | [Code](https://github.com/rankabaam/Asset-Inventory/tree/main/src) · [Preview](https://github.com/rankabaam/Asset-Inventory/blob/main/demo/preview.html) |
-| [Photo Intake](https://github.com/rankabaam/Photo-Intake) | Safe local media grouping and file-copy workflow | [Code](https://github.com/rankabaam/Photo-Intake/tree/main/src) · [Preview](https://github.com/rankabaam/Photo-Intake/blob/main/demo/index.html) |
+| [Photo Intake / Fieldframe](https://github.com/rankabaam/Photo-Intake) | Durable capture, retry simulation and verified completion | [Code](https://github.com/rankabaam/Photo-Intake/tree/main/showcase) · [Case study](https://github.com/rankabaam/Photo-Intake/blob/main/docs/CASE_STUDY.md) |
 | [Inspection Analytics](https://github.com/rankabaam/Inspection-Analytics) | Quality metrics, denominators, follow-up analysis, and reporting | [Code](https://github.com/rankabaam/Inspection-Analytics/tree/main/src) · [Preview](https://github.com/rankabaam/Inspection-Analytics/blob/main/demo/preview.html) |
 
 Every demo uses fictional scenarios and contains no actual employer files, customer information, location logs, site identifiers, source spreadsheets, or internal inspection data. The Photo Intake demonstration is a portfolio prototype, not a production deployment.
